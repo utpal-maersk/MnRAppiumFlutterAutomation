@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyFinanceTestSuite" parallel="tests" thread-count="2" >
+	<test name="Android-EXECUTION" >
+
+	    
+		<parameter name="platFormName" value="Android"></parameter>
+		<parameter name="portNumber" value="4724" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+					<include name="TC_007"></include>
+					<include name="TC_008"></include> 
+ 					<include name="TC_009"></include> 
+ 					<include name="TC_010"></include> 
+ 					<include name="TC_011"></include> 
+					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+					
+				</methods>
+
+			</class>
+		</classes>
+
+	</test>
+
+	<test name="iOS-EXECUTION">
+		
+	    
+		<parameter name="platFormName" value="iOS"></parameter>
+		<parameter name="portNumber" value="4723" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+ 					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+ 					<include name="TC_007"></include> 
+					<include name="TC_008"></include>
+					<include name="TC_009"></include> 
+					<include name="TC_010"></include> 
+					<include name="TC_011"></include> 
+ 					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+				</methods>
+
+			</class>
+			
+		</classes>
+
+	</test> <!-- Test -->
+	
+	
+
+</suite> <!-- Suite -->

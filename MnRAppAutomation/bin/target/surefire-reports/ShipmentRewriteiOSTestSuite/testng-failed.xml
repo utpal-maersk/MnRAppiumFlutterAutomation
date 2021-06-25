@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [ShipmentRewriteiOSTestSuite]" parallel="tests">
+  <test thread-count="10" verbose="0" name="iOS-EXECUTION-Device3(failed)" parallel="tests">
+    <parameter name="platFormName" value="iOS"/>
+    <parameter name="DeviceVersion" value="13"/>
+    <parameter name="portNumber" value="4723"/>
+    <parameter name="DeviceName" value="iPhone SE 2020"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- iOS-EXECUTION-Device3(failed) -->
+  <test thread-count="10" verbose="0" name="iOS-EXECUTION-Device9(failed)" parallel="tests">
+    <parameter name="platFormName" value="iOS"/>
+    <parameter name="DeviceVersion" value="14"/>
+    <parameter name="portNumber" value="4723"/>
+    <parameter name="DeviceName" value="iPhone 12"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- iOS-EXECUTION-Device9(failed) -->
+  <test thread-count="10" verbose="0" name="iOS-EXECUTION-Device8(failed)" parallel="tests">
+    <parameter name="platFormName" value="iOS"/>
+    <parameter name="DeviceVersion" value="14"/>
+    <parameter name="portNumber" value="4723"/>
+    <parameter name="DeviceName" value="iPhone 11 Pro Max"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- iOS-EXECUTION-Device8(failed) -->
+  <test thread-count="10" verbose="0" name="iOS-EXECUTION-Device10(failed)" parallel="tests">
+    <parameter name="platFormName" value="iOS"/>
+    <parameter name="DeviceVersion" value="14"/>
+    <parameter name="portNumber" value="4723"/>
+    <parameter name="DeviceName" value="iPhone 12 Pro"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- iOS-EXECUTION-Device10(failed) -->
+  <test thread-count="10" verbose="0" name="iOS-EXECUTION-Device1(failed)" parallel="tests">
+    <parameter name="platFormName" value="iOS"/>
+    <parameter name="DeviceVersion" value="14"/>
+    <parameter name="portNumber" value="4723"/>
+    <parameter name="DeviceName" value="iPhone XS"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- iOS-EXECUTION-Device1(failed) -->
+  <test thread-count="10" verbose="0" name="iOS-EXECUTION-Device5(failed)" parallel="tests">
+    <parameter name="platFormName" value="iOS"/>
+    <parameter name="DeviceVersion" value="14"/>
+    <parameter name="portNumber" value="4723"/>
+    <parameter name="DeviceName" value="iPhone 11"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- iOS-EXECUTION-Device5(failed) -->
+  <test thread-count="10" verbose="0" name="iOS-EXECUTION-Device2(failed)" parallel="tests">
+    <parameter name="platFormName" value="iOS"/>
+    <parameter name="DeviceVersion" value="14"/>
+    <parameter name="portNumber" value="4723"/>
+    <parameter name="DeviceName" value="iPhone 12 Mini"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- iOS-EXECUTION-Device2(failed) -->
+  <test thread-count="10" verbose="0" name="iOS-EXECUTION-Device6(failed)" parallel="tests">
+    <parameter name="platFormName" value="iOS"/>
+    <parameter name="DeviceVersion" value="13"/>
+    <parameter name="portNumber" value="4723"/>
+    <parameter name="DeviceName" value="iPhone 11 Pro"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- iOS-EXECUTION-Device6(failed) -->
+  <test thread-count="10" verbose="0" name="iOS-EXECUTION-Device4(failed)" parallel="tests">
+    <parameter name="platFormName" value="iOS"/>
+    <parameter name="DeviceVersion" value="13"/>
+    <parameter name="portNumber" value="4723"/>
+    <parameter name="DeviceName" value="iPhone 11"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- iOS-EXECUTION-Device4(failed) -->
+  <test thread-count="10" verbose="0" name="iOS-EXECUTION-Device7(failed)" parallel="tests">
+    <parameter name="platFormName" value="iOS"/>
+    <parameter name="DeviceVersion" value="13"/>
+    <parameter name="portNumber" value="4723"/>
+    <parameter name="DeviceName" value="iPhone 11 Pro Max"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- iOS-EXECUTION-Device7(failed) -->
+</suite> <!-- Failed suite [ShipmentRewriteiOSTestSuite] -->

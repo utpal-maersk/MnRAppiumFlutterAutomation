@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [ShipmentRewriteAndroidTestSuite]" parallel="tests">
+  <test thread-count="10" verbose="0" name="Android-EXECUTION-Device2(failed)" parallel="tests">
+    <parameter name="platFormName" value="Android"/>
+    <parameter name="DeviceVersion" value="11.0"/>
+    <parameter name="portNumber" value="4724"/>
+    <parameter name="DeviceName" value="Samsung Galaxy S21"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- Android-EXECUTION-Device2(failed) -->
+  <test thread-count="10" verbose="0" name="Android-EXECUTION-Device1(failed)" parallel="tests">
+    <parameter name="platFormName" value="Android"/>
+    <parameter name="DeviceVersion" value="9.0"/>
+    <parameter name="portNumber" value="4724"/>
+    <parameter name="DeviceName" value="Google Pixel 3"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- Android-EXECUTION-Device1(failed) -->
+  <test thread-count="10" verbose="0" name="Android-EXECUTION-Device3(failed)" parallel="tests">
+    <parameter name="platFormName" value="Android"/>
+    <parameter name="DeviceVersion" value="10.0"/>
+    <parameter name="portNumber" value="4724"/>
+    <parameter name="DeviceName" value="OnePlus 8"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- Android-EXECUTION-Device3(failed) -->
+  <test thread-count="10" verbose="0" name="Android-EXECUTION-Device9(failed)" parallel="tests">
+    <parameter name="platFormName" value="Android"/>
+    <parameter name="DeviceVersion" value="9.0"/>
+    <parameter name="portNumber" value="4724"/>
+    <parameter name="DeviceName" value="Google Pixel 3 XL"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- Android-EXECUTION-Device9(failed) -->
+  <test thread-count="10" verbose="0" name="Android-EXECUTION-Device7(failed)" parallel="tests">
+    <parameter name="platFormName" value="Android"/>
+    <parameter name="DeviceVersion" value="9.0"/>
+    <parameter name="portNumber" value="4724"/>
+    <parameter name="DeviceName" value="Huawei P30"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- Android-EXECUTION-Device7(failed) -->
+  <test thread-count="10" verbose="0" name="Android-EXECUTION-Device10(failed)" parallel="tests">
+    <parameter name="platFormName" value="Android"/>
+    <parameter name="DeviceVersion" value="10.0"/>
+    <parameter name="portNumber" value="4724"/>
+    <parameter name="DeviceName" value="Samsung Galaxy S20"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- Android-EXECUTION-Device10(failed) -->
+  <test thread-count="10" verbose="0" name="Android-EXECUTION-Device5(failed)" parallel="tests">
+    <parameter name="platFormName" value="Android"/>
+    <parameter name="DeviceVersion" value="9.0"/>
+    <parameter name="portNumber" value="4724"/>
+    <parameter name="DeviceName" value="Samsung Galaxy S8 Plus"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- Android-EXECUTION-Device5(failed) -->
+  <test thread-count="10" verbose="0" name="Android-EXECUTION-Device6(failed)" parallel="tests">
+    <parameter name="platFormName" value="Android"/>
+    <parameter name="DeviceVersion" value="8.0"/>
+    <parameter name="portNumber" value="4724"/>
+    <parameter name="DeviceName" value="Samsung Galaxy S9 Plus"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- Android-EXECUTION-Device6(failed) -->
+  <test thread-count="10" verbose="0" name="Android-EXECUTION-Device4(failed)" parallel="tests">
+    <parameter name="platFormName" value="Android"/>
+    <parameter name="DeviceVersion" value="7.0"/>
+    <parameter name="portNumber" value="4724"/>
+    <parameter name="DeviceName" value="Samsung Galaxy S8"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- Android-EXECUTION-Device4(failed) -->
+  <test thread-count="10" verbose="0" name="Android-EXECUTION-Device8(failed)" parallel="tests">
+    <parameter name="platFormName" value="Android"/>
+    <parameter name="DeviceVersion" value="10.0"/>
+    <parameter name="portNumber" value="4724"/>
+    <parameter name="DeviceName" value="Xiaomi Redmi Note 9"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- Android-EXECUTION-Device8(failed) -->
+</suite> <!-- Failed suite [ShipmentRewriteAndroidTestSuite] -->

@@ -1,0 +1,2037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="10" failed="0" ignored="40" total="90" passed="40">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ShipmentRewriteAndroidTestSuite" duration-ms="161303" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:16:30Z">
+    <groups>
+    </groups>
+    <test name="Android-EXECUTION-Device2" duration-ms="69082" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:14:58Z">
+      <class name="testScripts.TestScripts">
+        <test-method status="PASS" signature="setReportingConfig()[pri:0, instance:testScripts.TestScripts@186f8716]" name="setReportingConfig" is-config="true" duration-ms="0" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReportingConfig -->
+        <test-method status="PASS" signature="invokeTheTestSet(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.TestScripts@186f8716]" name="invokeTheTestSet" is-config="true" duration-ms="35588" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:14:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4724]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Samsung Galaxy S21]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeTheTestSet -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@186f8716]" name="createTestDescription" is-config="true" duration-ms="1" started-at="2021-06-17T21:14:24Z" finished-at="2021-06-17T21:14:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_001(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_001(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@186f8716]" name="TC_001" duration-ms="8548" started-at="2021-06-17T21:14:24Z" description="Verify Interstitial screens." data-provider="regressionDataSet" finished-at="2021-06-17T21:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Second Title Screen=Swipe to see more, First Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. See compact view all the invoices, Third Screen Title=More details for invoices, Second Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. Swipe feature., Run Mode=Yes, Third Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. More details for the invoices., Description=Verify Interstitial screens., First Title Screen=MyFinance PreProd}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@186f8716]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:33Z" finished-at="2021-06-17T21:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@186f8716]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:33Z" finished-at="2021-06-17T21:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_002(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_002(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@186f8716]" name="TC_002" duration-ms="2521" started-at="2021-06-17T21:14:33Z" description="Verify landing screens." data-provider="regressionDataSet" finished-at="2021-06-17T21:14:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Verify landing screen functionality, Nav 3 Text=, Top Nav 4=OFFICE, Landing Screen Title=Welcome, Top Nav 3=PORT, Top Nav 2=VESSEL, Top Nav 1=SHIPMENT, Landing Screen Sub Header=Start managing your shipments and logistics, Nav 4 Text=, Nav 1 Text=, Run Mode=Yes, Nav 2 Text=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@186f8716]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:35Z" finished-at="2021-06-17T21:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@186f8716]" name="createTestDescription" is-config="true" duration-ms="1" started-at="2021-06-17T21:14:35Z" finished-at="2021-06-17T21:14:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_003(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="SKIP" signature="TC_003(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@186f8716]" name="TC_003" duration-ms="1" started-at="2021-06-17T21:14:35Z" description="Verify login feature with invalid password" data-provider="regressionDataSet" finished-at="2021-06-17T21:14:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=mob_user_2, Login Screen Sub Title=Login to your account, Login Screen Title=Welcome back!, Password=Maersk#, Run Mode=No, Description=Verify login feature with invalid password for maerskline., Error Message=Invalid password}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the Test Case.... Run Mode set to 'No']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the Test Case.... Run Mode set to 'No'
+at testScripts.TestScripts.TC_003(TestScripts.java:203)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@186f8716]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:35Z" finished-at="2021-06-17T21:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@186f8716]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:35Z" finished-at="2021-06-17T21:14:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_004(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_004(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@186f8716]" name="TC_004" duration-ms="10299" started-at="2021-06-17T21:14:35Z" description="Verify login feature with invalid username." data-provider="regressionDataSet" finished-at="2021-06-17T21:14:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=blahblahblah, Password=Maersk@1, Run Mode=Yes, Description=Verify login feature with invalid username for maerskline., Error Message=Invalid username}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@186f8716]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:46Z" finished-at="2021-06-17T21:14:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@186f8716]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:46Z" finished-at="2021-06-17T21:14:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_005(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_005(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@186f8716]" name="TC_005" duration-ms="10282" started-at="2021-06-17T21:14:46Z" description="Verify login feature with locked account." data-provider="regressionDataSet" finished-at="2021-06-17T21:14:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=locked_account, Password=Maersk#1, Run Mode=Yes, Description=Verify login feature with invalid locked account for maerskline., Error Message=Your account is locked. Please reset your password}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testScripts.TestScripts@186f8716]" name="afterClass" is-config="true" duration-ms="1673" started-at="2021-06-17T21:14:56Z" finished-at="2021-06-17T21:14:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@186f8716]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:56Z" finished-at="2021-06-17T21:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="afterAllTest()[pri:0, instance:testScripts.TestScripts@186f8716]" name="afterAllTest" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:58Z" finished-at="2021-06-17T21:14:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTest -->
+      </class> <!-- testScripts.TestScripts -->
+    </test> <!-- Android-EXECUTION-Device2 -->
+    <test name="Android-EXECUTION-Device1" duration-ms="77915" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:15:06Z">
+      <class name="testScripts.TestScripts">
+        <test-method status="PASS" signature="setReportingConfig()[pri:0, instance:testScripts.TestScripts@610f7aa]" name="setReportingConfig" is-config="true" duration-ms="0" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReportingConfig -->
+        <test-method status="PASS" signature="invokeTheTestSet(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.TestScripts@610f7aa]" name="invokeTheTestSet" is-config="true" duration-ms="39376" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:14:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4724]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Google Pixel 3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeTheTestSet -->
+        <test-method status="PASS" signature="TC_001(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@610f7aa]" name="TC_001" duration-ms="10294" started-at="2021-06-17T21:14:28Z" description="Verify Interstitial screens." data-provider="regressionDataSet" finished-at="2021-06-17T21:14:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Second Title Screen=Swipe to see more, First Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. See compact view all the invoices, Third Screen Title=More details for invoices, Second Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. Swipe feature., Run Mode=Yes, Third Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. More details for the invoices., Description=Verify Interstitial screens., First Title Screen=MyFinance PreProd}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@610f7aa]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:28Z" finished-at="2021-06-17T21:14:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_001(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@610f7aa]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:38Z" finished-at="2021-06-17T21:14:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="TC_002(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@610f7aa]" name="TC_002" duration-ms="3786" started-at="2021-06-17T21:14:38Z" description="Verify landing screens." data-provider="regressionDataSet" finished-at="2021-06-17T21:14:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Verify landing screen functionality, Nav 3 Text=, Top Nav 4=OFFICE, Landing Screen Title=Welcome, Top Nav 3=PORT, Top Nav 2=VESSEL, Top Nav 1=SHIPMENT, Landing Screen Sub Header=Start managing your shipments and logistics, Nav 4 Text=, Nav 1 Text=, Run Mode=Yes, Nav 2 Text=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@610f7aa]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:38Z" finished-at="2021-06-17T21:14:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_002(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@610f7aa]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:42Z" finished-at="2021-06-17T21:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@610f7aa]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:42Z" finished-at="2021-06-17T21:14:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_003(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="SKIP" signature="TC_003(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@610f7aa]" name="TC_003" duration-ms="1" started-at="2021-06-17T21:14:42Z" description="Verify login feature with invalid password" data-provider="regressionDataSet" finished-at="2021-06-17T21:14:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=mob_user_2, Login Screen Sub Title=Login to your account, Login Screen Title=Welcome back!, Password=Maersk#, Run Mode=No, Description=Verify login feature with invalid password for maerskline., Error Message=Invalid password}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the Test Case.... Run Mode set to 'No']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the Test Case.... Run Mode set to 'No'
+at testScripts.TestScripts.TC_003(TestScripts.java:203)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@610f7aa]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:42Z" finished-at="2021-06-17T21:14:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@610f7aa]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:42Z" finished-at="2021-06-17T21:14:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_004(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_004(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@610f7aa]" name="TC_004" duration-ms="11233" started-at="2021-06-17T21:14:42Z" description="Verify login feature with invalid username." data-provider="regressionDataSet" finished-at="2021-06-17T21:14:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=blahblahblah, Password=Maersk@1, Run Mode=Yes, Description=Verify login feature with invalid username for maerskline., Error Message=Invalid username}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@610f7aa]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:53Z" finished-at="2021-06-17T21:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@610f7aa]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:53Z" finished-at="2021-06-17T21:14:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_005(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_005(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@610f7aa]" name="TC_005" duration-ms="11561" started-at="2021-06-17T21:14:53Z" description="Verify login feature with locked account." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=locked_account, Password=Maersk#1, Run Mode=Yes, Description=Verify login feature with invalid locked account for maerskline., Error Message=Your account is locked. Please reset your password}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testScripts.TestScripts@610f7aa]" name="afterClass" is-config="true" duration-ms="1534" started-at="2021-06-17T21:15:05Z" finished-at="2021-06-17T21:15:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@610f7aa]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:05Z" finished-at="2021-06-17T21:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="afterAllTest()[pri:0, instance:testScripts.TestScripts@610f7aa]" name="afterAllTest" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:06Z" finished-at="2021-06-17T21:15:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTest -->
+      </class> <!-- testScripts.TestScripts -->
+    </test> <!-- Android-EXECUTION-Device1 -->
+    <test name="Android-EXECUTION-Device3" duration-ms="93430" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:15:22Z">
+      <class name="testScripts.TestScripts">
+        <test-method status="PASS" signature="setReportingConfig()[pri:0, instance:testScripts.TestScripts@574b560f]" name="setReportingConfig" is-config="true" duration-ms="0" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReportingConfig -->
+        <test-method status="PASS" signature="invokeTheTestSet(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.TestScripts@574b560f]" name="invokeTheTestSet" is-config="true" duration-ms="40537" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:14:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4724]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OnePlus 8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeTheTestSet -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@574b560f]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:29Z" finished-at="2021-06-17T21:14:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_001(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_001(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@574b560f]" name="TC_001" duration-ms="10416" started-at="2021-06-17T21:14:29Z" description="Verify Interstitial screens." data-provider="regressionDataSet" finished-at="2021-06-17T21:14:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Second Title Screen=Swipe to see more, First Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. See compact view all the invoices, Third Screen Title=More details for invoices, Second Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. Swipe feature., Run Mode=Yes, Third Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. More details for the invoices., Description=Verify Interstitial screens., First Title Screen=MyFinance PreProd}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@574b560f]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:39Z" finished-at="2021-06-17T21:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="TC_002(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@574b560f]" name="TC_002" duration-ms="11114" started-at="2021-06-17T21:14:40Z" description="Verify landing screens." data-provider="regressionDataSet" finished-at="2021-06-17T21:14:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Verify landing screen functionality, Nav 3 Text=, Top Nav 4=OFFICE, Landing Screen Title=Welcome, Top Nav 3=PORT, Top Nav 2=VESSEL, Top Nav 1=SHIPMENT, Landing Screen Sub Header=Start managing your shipments and logistics, Nav 4 Text=, Nav 1 Text=, Run Mode=Yes, Nav 2 Text=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@574b560f]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:40Z" finished-at="2021-06-17T21:14:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_002(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@574b560f]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:51Z" finished-at="2021-06-17T21:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@574b560f]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:51Z" finished-at="2021-06-17T21:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@574b560f]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:51Z" finished-at="2021-06-17T21:14:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_003(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="SKIP" signature="TC_003(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@574b560f]" name="TC_003" duration-ms="0" started-at="2021-06-17T21:14:51Z" description="Verify login feature with invalid password" data-provider="regressionDataSet" finished-at="2021-06-17T21:14:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=mob_user_2, Login Screen Sub Title=Login to your account, Login Screen Title=Welcome back!, Password=Maersk#, Run Mode=No, Description=Verify login feature with invalid password for maerskline., Error Message=Invalid password}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the Test Case.... Run Mode set to 'No']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the Test Case.... Run Mode set to 'No'
+at testScripts.TestScripts.TC_003(TestScripts.java:203)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003 -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@574b560f]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:51Z" finished-at="2021-06-17T21:14:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_004(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_004(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@574b560f]" name="TC_004" duration-ms="14888" started-at="2021-06-17T21:14:51Z" description="Verify login feature with invalid username." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=blahblahblah, Password=Maersk@1, Run Mode=Yes, Description=Verify login feature with invalid username for maerskline., Error Message=Invalid username}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@574b560f]" name="updateTestExecutionStatus" is-config="true" duration-ms="1" started-at="2021-06-17T21:15:06Z" finished-at="2021-06-17T21:15:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@574b560f]" name="createTestDescription" is-config="true" duration-ms="1" started-at="2021-06-17T21:15:06Z" finished-at="2021-06-17T21:15:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_005(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_005(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@574b560f]" name="TC_005" duration-ms="14877" started-at="2021-06-17T21:15:06Z" description="Verify login feature with locked account." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=locked_account, Password=Maersk#1, Run Mode=Yes, Description=Verify login feature with invalid locked account for maerskline., Error Message=Your account is locked. Please reset your password}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@574b560f]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:20Z" finished-at="2021-06-17T21:15:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testScripts.TestScripts@574b560f]" name="afterClass" is-config="true" duration-ms="1469" started-at="2021-06-17T21:15:20Z" finished-at="2021-06-17T21:15:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterAllTest()[pri:0, instance:testScripts.TestScripts@574b560f]" name="afterAllTest" is-config="true" duration-ms="1" started-at="2021-06-17T21:15:22Z" finished-at="2021-06-17T21:15:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTest -->
+      </class> <!-- testScripts.TestScripts -->
+    </test> <!-- Android-EXECUTION-Device3 -->
+    <test name="Android-EXECUTION-Device9" duration-ms="97413" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:15:26Z">
+      <class name="testScripts.TestScripts">
+        <test-method status="PASS" signature="setReportingConfig()[pri:0, instance:testScripts.TestScripts@6c779568]" name="setReportingConfig" is-config="true" duration-ms="0" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReportingConfig -->
+        <test-method status="PASS" signature="invokeTheTestSet(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.TestScripts@6c779568]" name="invokeTheTestSet" is-config="true" duration-ms="41290" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:14:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4724]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Google Pixel 3 XL]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeTheTestSet -->
+        <test-method status="PASS" signature="TC_001(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@6c779568]" name="TC_001" duration-ms="11425" started-at="2021-06-17T21:14:30Z" description="Verify Interstitial screens." data-provider="regressionDataSet" finished-at="2021-06-17T21:14:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Second Title Screen=Swipe to see more, First Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. See compact view all the invoices, Third Screen Title=More details for invoices, Second Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. Swipe feature., Run Mode=Yes, Third Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. More details for the invoices., Description=Verify Interstitial screens., First Title Screen=MyFinance PreProd}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@6c779568]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:30Z" finished-at="2021-06-17T21:14:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_001(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@6c779568]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:41Z" finished-at="2021-06-17T21:14:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@6c779568]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:41Z" finished-at="2021-06-17T21:14:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_002(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_002(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@6c779568]" name="TC_002" duration-ms="11725" started-at="2021-06-17T21:14:41Z" description="Verify landing screens." data-provider="regressionDataSet" finished-at="2021-06-17T21:14:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Verify landing screen functionality, Nav 3 Text=, Top Nav 4=OFFICE, Landing Screen Title=Welcome, Top Nav 3=PORT, Top Nav 2=VESSEL, Top Nav 1=SHIPMENT, Landing Screen Sub Header=Start managing your shipments and logistics, Nav 4 Text=, Nav 1 Text=, Run Mode=Yes, Nav 2 Text=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@6c779568]" name="updateTestExecutionStatus" is-config="true" duration-ms="1" started-at="2021-06-17T21:14:53Z" finished-at="2021-06-17T21:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@6c779568]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:53Z" finished-at="2021-06-17T21:14:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_003(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="SKIP" signature="TC_003(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@6c779568]" name="TC_003" duration-ms="1" started-at="2021-06-17T21:14:53Z" description="Verify login feature with invalid password" data-provider="regressionDataSet" finished-at="2021-06-17T21:14:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=mob_user_2, Login Screen Sub Title=Login to your account, Login Screen Title=Welcome back!, Password=Maersk#, Run Mode=No, Description=Verify login feature with invalid password for maerskline., Error Message=Invalid password}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the Test Case.... Run Mode set to 'No']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the Test Case.... Run Mode set to 'No'
+at testScripts.TestScripts.TC_003(TestScripts.java:203)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@6c779568]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:53Z" finished-at="2021-06-17T21:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="TC_004(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@6c779568]" name="TC_004" duration-ms="15876" started-at="2021-06-17T21:14:53Z" description="Verify login feature with invalid username." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=blahblahblah, Password=Maersk@1, Run Mode=Yes, Description=Verify login feature with invalid username for maerskline., Error Message=Invalid username}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@6c779568]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:53Z" finished-at="2021-06-17T21:14:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_004(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@6c779568]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:09Z" finished-at="2021-06-17T21:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@6c779568]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:09Z" finished-at="2021-06-17T21:15:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_005(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_005(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@6c779568]" name="TC_005" duration-ms="15603" started-at="2021-06-17T21:15:09Z" description="Verify login feature with locked account." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=locked_account, Password=Maersk#1, Run Mode=Yes, Description=Verify login feature with invalid locked account for maerskline., Error Message=Your account is locked. Please reset your password}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@6c779568]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:25Z" finished-at="2021-06-17T21:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testScripts.TestScripts@6c779568]" name="afterClass" is-config="true" duration-ms="1350" started-at="2021-06-17T21:15:25Z" finished-at="2021-06-17T21:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterAllTest()[pri:0, instance:testScripts.TestScripts@6c779568]" name="afterAllTest" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:26Z" finished-at="2021-06-17T21:15:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTest -->
+      </class> <!-- testScripts.TestScripts -->
+    </test> <!-- Android-EXECUTION-Device9 -->
+    <test name="Android-EXECUTION-Device7" duration-ms="100182" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:15:29Z">
+      <class name="testScripts.TestScripts">
+        <test-method status="PASS" signature="setReportingConfig()[pri:0, instance:testScripts.TestScripts@41c2284a]" name="setReportingConfig" is-config="true" duration-ms="0" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReportingConfig -->
+        <test-method status="PASS" signature="invokeTheTestSet(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.TestScripts@41c2284a]" name="invokeTheTestSet" is-config="true" duration-ms="38500" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:14:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4724]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Huawei P30]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeTheTestSet -->
+        <test-method status="PASS" signature="TC_001(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@41c2284a]" name="TC_001" duration-ms="12560" started-at="2021-06-17T21:14:27Z" description="Verify Interstitial screens." data-provider="regressionDataSet" finished-at="2021-06-17T21:14:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Second Title Screen=Swipe to see more, First Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. See compact view all the invoices, Third Screen Title=More details for invoices, Second Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. Swipe feature., Run Mode=Yes, Third Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. More details for the invoices., Description=Verify Interstitial screens., First Title Screen=MyFinance PreProd}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@41c2284a]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:27Z" finished-at="2021-06-17T21:14:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_001(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@41c2284a]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:40Z" finished-at="2021-06-17T21:14:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="TC_002(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@41c2284a]" name="TC_002" duration-ms="13300" started-at="2021-06-17T21:14:40Z" description="Verify landing screens." data-provider="regressionDataSet" finished-at="2021-06-17T21:14:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Verify landing screen functionality, Nav 3 Text=, Top Nav 4=OFFICE, Landing Screen Title=Welcome, Top Nav 3=PORT, Top Nav 2=VESSEL, Top Nav 1=SHIPMENT, Landing Screen Sub Header=Start managing your shipments and logistics, Nav 4 Text=, Nav 1 Text=, Run Mode=Yes, Nav 2 Text=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@41c2284a]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:40Z" finished-at="2021-06-17T21:14:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_002(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@41c2284a]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:53Z" finished-at="2021-06-17T21:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@41c2284a]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:53Z" finished-at="2021-06-17T21:14:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_003(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="SKIP" signature="TC_003(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@41c2284a]" name="TC_003" duration-ms="0" started-at="2021-06-17T21:14:53Z" description="Verify login feature with invalid password" data-provider="regressionDataSet" finished-at="2021-06-17T21:14:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=mob_user_2, Login Screen Sub Title=Login to your account, Login Screen Title=Welcome back!, Password=Maersk#, Run Mode=No, Description=Verify login feature with invalid password for maerskline., Error Message=Invalid password}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the Test Case.... Run Mode set to 'No']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the Test Case.... Run Mode set to 'No'
+at testScripts.TestScripts.TC_003(TestScripts.java:203)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@41c2284a]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:53Z" finished-at="2021-06-17T21:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="TC_004(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@41c2284a]" name="TC_004" duration-ms="17472" started-at="2021-06-17T21:14:53Z" description="Verify login feature with invalid username." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=blahblahblah, Password=Maersk@1, Run Mode=Yes, Description=Verify login feature with invalid username for maerskline., Error Message=Invalid username}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@41c2284a]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:53Z" finished-at="2021-06-17T21:14:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_004(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@41c2284a]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:10Z" finished-at="2021-06-17T21:15:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@41c2284a]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:11Z" finished-at="2021-06-17T21:15:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_005(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_005(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@41c2284a]" name="TC_005" duration-ms="16811" started-at="2021-06-17T21:15:11Z" description="Verify login feature with locked account." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=locked_account, Password=Maersk#1, Run Mode=Yes, Description=Verify login feature with invalid locked account for maerskline., Error Message=Your account is locked. Please reset your password}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testScripts.TestScripts@41c2284a]" name="afterClass" is-config="true" duration-ms="1370" started-at="2021-06-17T21:15:27Z" finished-at="2021-06-17T21:15:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@41c2284a]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:27Z" finished-at="2021-06-17T21:15:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="afterAllTest()[pri:0, instance:testScripts.TestScripts@41c2284a]" name="afterAllTest" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:29Z" finished-at="2021-06-17T21:15:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTest -->
+      </class> <!-- testScripts.TestScripts -->
+    </test> <!-- Android-EXECUTION-Device7 -->
+    <test name="Android-EXECUTION-Device10" duration-ms="106004" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:15:35Z">
+      <class name="testScripts.TestScripts">
+        <test-method status="PASS" signature="createTestRun()[pri:0, instance:testScripts.TestScripts@2525ff7e]" name="createTestRun" is-config="true" duration-ms="117" started-at="2021-06-17T21:13:48Z" finished-at="2021-06-17T21:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestRun -->
+        <test-method status="PASS" signature="setReportingConfig()[pri:0, instance:testScripts.TestScripts@2525ff7e]" name="setReportingConfig" is-config="true" duration-ms="0" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReportingConfig -->
+        <test-method status="PASS" signature="invokeTheTestSet(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.TestScripts@2525ff7e]" name="invokeTheTestSet" is-config="true" duration-ms="45501" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:14:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4724]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Samsung Galaxy S20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeTheTestSet -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@2525ff7e]" name="createTestDescription" is-config="true" duration-ms="1" started-at="2021-06-17T21:14:34Z" finished-at="2021-06-17T21:14:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_001(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_001(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@2525ff7e]" name="TC_001" duration-ms="12639" started-at="2021-06-17T21:14:34Z" description="Verify Interstitial screens." data-provider="regressionDataSet" finished-at="2021-06-17T21:14:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Second Title Screen=Swipe to see more, First Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. See compact view all the invoices, Third Screen Title=More details for invoices, Second Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. Swipe feature., Run Mode=Yes, Third Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. More details for the invoices., Description=Verify Interstitial screens., First Title Screen=MyFinance PreProd}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@2525ff7e]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:47Z" finished-at="2021-06-17T21:14:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@2525ff7e]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:47Z" finished-at="2021-06-17T21:14:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_002(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_002(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@2525ff7e]" name="TC_002" duration-ms="13184" started-at="2021-06-17T21:14:47Z" description="Verify landing screens." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Verify landing screen functionality, Nav 3 Text=, Top Nav 4=OFFICE, Landing Screen Title=Welcome, Top Nav 3=PORT, Top Nav 2=VESSEL, Top Nav 1=SHIPMENT, Landing Screen Sub Header=Start managing your shipments and logistics, Nav 4 Text=, Nav 1 Text=, Run Mode=Yes, Nav 2 Text=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@2525ff7e]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:00Z" finished-at="2021-06-17T21:15:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="SKIP" signature="TC_003(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@2525ff7e]" name="TC_003" duration-ms="1" started-at="2021-06-17T21:15:00Z" description="Verify login feature with invalid password" data-provider="regressionDataSet" finished-at="2021-06-17T21:15:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=mob_user_2, Login Screen Sub Title=Login to your account, Login Screen Title=Welcome back!, Password=Maersk#, Run Mode=No, Description=Verify login feature with invalid password for maerskline., Error Message=Invalid password}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the Test Case.... Run Mode set to 'No']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the Test Case.... Run Mode set to 'No'
+at testScripts.TestScripts.TC_003(TestScripts.java:203)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003 -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@2525ff7e]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:00Z" finished-at="2021-06-17T21:15:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_003(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@2525ff7e]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:00Z" finished-at="2021-06-17T21:15:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@2525ff7e]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:00Z" finished-at="2021-06-17T21:15:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_004(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_004(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@2525ff7e]" name="TC_004" duration-ms="16628" started-at="2021-06-17T21:15:00Z" description="Verify login feature with invalid username." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=blahblahblah, Password=Maersk@1, Run Mode=Yes, Description=Verify login feature with invalid username for maerskline., Error Message=Invalid username}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@2525ff7e]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:17Z" finished-at="2021-06-17T21:15:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@2525ff7e]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:17Z" finished-at="2021-06-17T21:15:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_005(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_005(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@2525ff7e]" name="TC_005" duration-ms="16537" started-at="2021-06-17T21:15:17Z" description="Verify login feature with locked account." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=locked_account, Password=Maersk#1, Run Mode=Yes, Description=Verify login feature with invalid locked account for maerskline., Error Message=Your account is locked. Please reset your password}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testScripts.TestScripts@2525ff7e]" name="afterClass" is-config="true" duration-ms="1345" started-at="2021-06-17T21:15:33Z" finished-at="2021-06-17T21:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@2525ff7e]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:33Z" finished-at="2021-06-17T21:15:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="afterAllTest()[pri:0, instance:testScripts.TestScripts@2525ff7e]" name="afterAllTest" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:35Z" finished-at="2021-06-17T21:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTest -->
+        <test-method status="PASS" signature="afterTestSuite()[pri:0, instance:testScripts.TestScripts@2525ff7e]" name="afterTestSuite" is-config="true" duration-ms="242" started-at="2021-06-17T21:16:30Z" finished-at="2021-06-17T21:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestSuite -->
+      </class> <!-- testScripts.TestScripts -->
+    </test> <!-- Android-EXECUTION-Device10 -->
+    <test name="Android-EXECUTION-Device5" duration-ms="113645" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:15:42Z">
+      <class name="testScripts.TestScripts">
+        <test-method status="PASS" signature="setReportingConfig()[pri:0, instance:testScripts.TestScripts@69fb6037]" name="setReportingConfig" is-config="true" duration-ms="0" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReportingConfig -->
+        <test-method status="PASS" signature="invokeTheTestSet(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.TestScripts@69fb6037]" name="invokeTheTestSet" is-config="true" duration-ms="51895" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:14:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4724]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Samsung Galaxy S8 Plus]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeTheTestSet -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@69fb6037]" name="createTestDescription" is-config="true" duration-ms="1" started-at="2021-06-17T21:14:40Z" finished-at="2021-06-17T21:14:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_001(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_001(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@69fb6037]" name="TC_001" duration-ms="15496" started-at="2021-06-17T21:14:40Z" description="Verify Interstitial screens." data-provider="regressionDataSet" finished-at="2021-06-17T21:14:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Second Title Screen=Swipe to see more, First Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. See compact view all the invoices, Third Screen Title=More details for invoices, Second Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. Swipe feature., Run Mode=Yes, Third Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. More details for the invoices., Description=Verify Interstitial screens., First Title Screen=MyFinance PreProd}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@69fb6037]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:56Z" finished-at="2021-06-17T21:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@69fb6037]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:56Z" finished-at="2021-06-17T21:14:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_002(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_002(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@69fb6037]" name="TC_002" duration-ms="12091" started-at="2021-06-17T21:14:56Z" description="Verify landing screens." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Verify landing screen functionality, Nav 3 Text=, Top Nav 4=OFFICE, Landing Screen Title=Welcome, Top Nav 3=PORT, Top Nav 2=VESSEL, Top Nav 1=SHIPMENT, Landing Screen Sub Header=Start managing your shipments and logistics, Nav 4 Text=, Nav 1 Text=, Run Mode=Yes, Nav 2 Text=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@69fb6037]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:08Z" finished-at="2021-06-17T21:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@69fb6037]" name="createTestDescription" is-config="true" duration-ms="1" started-at="2021-06-17T21:15:08Z" finished-at="2021-06-17T21:15:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_003(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="SKIP" signature="TC_003(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@69fb6037]" name="TC_003" duration-ms="0" started-at="2021-06-17T21:15:08Z" description="Verify login feature with invalid password" data-provider="regressionDataSet" finished-at="2021-06-17T21:15:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=mob_user_2, Login Screen Sub Title=Login to your account, Login Screen Title=Welcome back!, Password=Maersk#, Run Mode=No, Description=Verify login feature with invalid password for maerskline., Error Message=Invalid password}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the Test Case.... Run Mode set to 'No']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the Test Case.... Run Mode set to 'No'
+at testScripts.TestScripts.TC_003(TestScripts.java:203)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@69fb6037]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:08Z" finished-at="2021-06-17T21:15:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="TC_004(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@69fb6037]" name="TC_004" duration-ms="16492" started-at="2021-06-17T21:15:08Z" description="Verify login feature with invalid username." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=blahblahblah, Password=Maersk@1, Run Mode=Yes, Description=Verify login feature with invalid username for maerskline., Error Message=Invalid username}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@69fb6037]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:08Z" finished-at="2021-06-17T21:15:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_004(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@69fb6037]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:25Z" finished-at="2021-06-17T21:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@69fb6037]" name="createTestDescription" is-config="true" duration-ms="1" started-at="2021-06-17T21:15:25Z" finished-at="2021-06-17T21:15:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_005(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_005(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@69fb6037]" name="TC_005" duration-ms="15975" started-at="2021-06-17T21:15:25Z" description="Verify login feature with locked account." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=locked_account, Password=Maersk#1, Run Mode=Yes, Description=Verify login feature with invalid locked account for maerskline., Error Message=Your account is locked. Please reset your password}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@69fb6037]" name="updateTestExecutionStatus" is-config="true" duration-ms="1" started-at="2021-06-17T21:15:41Z" finished-at="2021-06-17T21:15:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testScripts.TestScripts@69fb6037]" name="afterClass" is-config="true" duration-ms="1524" started-at="2021-06-17T21:15:41Z" finished-at="2021-06-17T21:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterAllTest()[pri:0, instance:testScripts.TestScripts@69fb6037]" name="afterAllTest" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:42Z" finished-at="2021-06-17T21:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTest -->
+      </class> <!-- testScripts.TestScripts -->
+    </test> <!-- Android-EXECUTION-Device5 -->
+    <test name="Android-EXECUTION-Device6" duration-ms="124103" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:15:53Z">
+      <class name="testScripts.TestScripts">
+        <test-method status="PASS" signature="setReportingConfig()[pri:0, instance:testScripts.TestScripts@609db43b]" name="setReportingConfig" is-config="true" duration-ms="0" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReportingConfig -->
+        <test-method status="PASS" signature="invokeTheTestSet(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.TestScripts@609db43b]" name="invokeTheTestSet" is-config="true" duration-ms="61755" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:14:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4724]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Samsung Galaxy S9 Plus]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeTheTestSet -->
+        <test-method status="PASS" signature="TC_001(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@609db43b]" name="TC_001" duration-ms="13349" started-at="2021-06-17T21:14:50Z" description="Verify Interstitial screens." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Second Title Screen=Swipe to see more, First Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. See compact view all the invoices, Third Screen Title=More details for invoices, Second Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. Swipe feature., Run Mode=Yes, Third Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. More details for the invoices., Description=Verify Interstitial screens., First Title Screen=MyFinance PreProd}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@609db43b]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:14:50Z" finished-at="2021-06-17T21:14:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_001(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@609db43b]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:04Z" finished-at="2021-06-17T21:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="TC_002(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@609db43b]" name="TC_002" duration-ms="13831" started-at="2021-06-17T21:15:04Z" description="Verify landing screens." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Verify landing screen functionality, Nav 3 Text=, Top Nav 4=OFFICE, Landing Screen Title=Welcome, Top Nav 3=PORT, Top Nav 2=VESSEL, Top Nav 1=SHIPMENT, Landing Screen Sub Header=Start managing your shipments and logistics, Nav 4 Text=, Nav 1 Text=, Run Mode=Yes, Nav 2 Text=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@609db43b]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:04Z" finished-at="2021-06-17T21:15:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_002(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@609db43b]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:18Z" finished-at="2021-06-17T21:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@609db43b]" name="createTestDescription" is-config="true" duration-ms="1" started-at="2021-06-17T21:15:18Z" finished-at="2021-06-17T21:15:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_003(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="SKIP" signature="TC_003(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@609db43b]" name="TC_003" duration-ms="0" started-at="2021-06-17T21:15:18Z" description="Verify login feature with invalid password" data-provider="regressionDataSet" finished-at="2021-06-17T21:15:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=mob_user_2, Login Screen Sub Title=Login to your account, Login Screen Title=Welcome back!, Password=Maersk#, Run Mode=No, Description=Verify login feature with invalid password for maerskline., Error Message=Invalid password}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the Test Case.... Run Mode set to 'No']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the Test Case.... Run Mode set to 'No'
+at testScripts.TestScripts.TC_003(TestScripts.java:203)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@609db43b]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:18Z" finished-at="2021-06-17T21:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@609db43b]" name="createTestDescription" is-config="true" duration-ms="1" started-at="2021-06-17T21:15:18Z" finished-at="2021-06-17T21:15:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_004(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_004(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@609db43b]" name="TC_004" duration-ms="16996" started-at="2021-06-17T21:15:18Z" description="Verify login feature with invalid username." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=blahblahblah, Password=Maersk@1, Run Mode=Yes, Description=Verify login feature with invalid username for maerskline., Error Message=Invalid username}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@609db43b]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:35Z" finished-at="2021-06-17T21:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@609db43b]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:35Z" finished-at="2021-06-17T21:15:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_005(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_005(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@609db43b]" name="TC_005" duration-ms="16528" started-at="2021-06-17T21:15:35Z" description="Verify login feature with locked account." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=locked_account, Password=Maersk#1, Run Mode=Yes, Description=Verify login feature with invalid locked account for maerskline., Error Message=Your account is locked. Please reset your password}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testScripts.TestScripts@609db43b]" name="afterClass" is-config="true" duration-ms="1442" started-at="2021-06-17T21:15:51Z" finished-at="2021-06-17T21:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@609db43b]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:51Z" finished-at="2021-06-17T21:15:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="afterAllTest()[pri:0, instance:testScripts.TestScripts@609db43b]" name="afterAllTest" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:53Z" finished-at="2021-06-17T21:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTest -->
+      </class> <!-- testScripts.TestScripts -->
+    </test> <!-- Android-EXECUTION-Device6 -->
+    <test name="Android-EXECUTION-Device4" duration-ms="130894" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:15:59Z">
+      <class name="testScripts.TestScripts">
+        <test-method status="PASS" signature="setReportingConfig()[pri:0, instance:testScripts.TestScripts@71c3b41]" name="setReportingConfig" is-config="true" duration-ms="0" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReportingConfig -->
+        <test-method status="PASS" signature="invokeTheTestSet(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.TestScripts@71c3b41]" name="invokeTheTestSet" is-config="true" duration-ms="71715" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:15:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4724]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Samsung Galaxy S8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeTheTestSet -->
+        <test-method status="PASS" signature="TC_001(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@71c3b41]" name="TC_001" duration-ms="13785" started-at="2021-06-17T21:15:00Z" description="Verify Interstitial screens." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Second Title Screen=Swipe to see more, First Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. See compact view all the invoices, Third Screen Title=More details for invoices, Second Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. Swipe feature., Run Mode=Yes, Third Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. More details for the invoices., Description=Verify Interstitial screens., First Title Screen=MyFinance PreProd}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@71c3b41]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:00Z" finished-at="2021-06-17T21:15:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_001(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@71c3b41]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:14Z" finished-at="2021-06-17T21:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@71c3b41]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:14Z" finished-at="2021-06-17T21:15:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_002(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_002(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@71c3b41]" name="TC_002" duration-ms="11278" started-at="2021-06-17T21:15:14Z" description="Verify landing screens." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Verify landing screen functionality, Nav 3 Text=, Top Nav 4=OFFICE, Landing Screen Title=Welcome, Top Nav 3=PORT, Top Nav 2=VESSEL, Top Nav 1=SHIPMENT, Landing Screen Sub Header=Start managing your shipments and logistics, Nav 4 Text=, Nav 1 Text=, Run Mode=Yes, Nav 2 Text=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@71c3b41]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:25Z" finished-at="2021-06-17T21:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="SKIP" signature="TC_003(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@71c3b41]" name="TC_003" duration-ms="1" started-at="2021-06-17T21:15:25Z" description="Verify login feature with invalid password" data-provider="regressionDataSet" finished-at="2021-06-17T21:15:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=mob_user_2, Login Screen Sub Title=Login to your account, Login Screen Title=Welcome back!, Password=Maersk#, Run Mode=No, Description=Verify login feature with invalid password for maerskline., Error Message=Invalid password}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the Test Case.... Run Mode set to 'No']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the Test Case.... Run Mode set to 'No'
+at testScripts.TestScripts.TC_003(TestScripts.java:203)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003 -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@71c3b41]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:25Z" finished-at="2021-06-17T21:15:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_003(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@71c3b41]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:25Z" finished-at="2021-06-17T21:15:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="TC_004(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@71c3b41]" name="TC_004" duration-ms="16546" started-at="2021-06-17T21:15:25Z" description="Verify login feature with invalid username." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=blahblahblah, Password=Maersk@1, Run Mode=Yes, Description=Verify login feature with invalid username for maerskline., Error Message=Invalid username}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@71c3b41]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:25Z" finished-at="2021-06-17T21:15:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_004(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@71c3b41]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:42Z" finished-at="2021-06-17T21:15:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@71c3b41]" name="createTestDescription" is-config="true" duration-ms="1" started-at="2021-06-17T21:15:42Z" finished-at="2021-06-17T21:15:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_005(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_005(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@71c3b41]" name="TC_005" duration-ms="15900" started-at="2021-06-17T21:15:42Z" description="Verify login feature with locked account." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=locked_account, Password=Maersk#1, Run Mode=Yes, Description=Verify login feature with invalid locked account for maerskline., Error Message=Your account is locked. Please reset your password}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testScripts.TestScripts@71c3b41]" name="afterClass" is-config="true" duration-ms="1487" started-at="2021-06-17T21:15:58Z" finished-at="2021-06-17T21:15:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@71c3b41]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:58Z" finished-at="2021-06-17T21:15:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="afterAllTest()[pri:0, instance:testScripts.TestScripts@71c3b41]" name="afterAllTest" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:59Z" finished-at="2021-06-17T21:15:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTest -->
+      </class> <!-- testScripts.TestScripts -->
+    </test> <!-- Android-EXECUTION-Device4 -->
+    <test name="Android-EXECUTION-Device8" duration-ms="161302" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:16:30Z">
+      <class name="testScripts.TestScripts">
+        <test-method status="PASS" signature="setReportingConfig()[pri:0, instance:testScripts.TestScripts@5f683daf]" name="setReportingConfig" is-config="true" duration-ms="0" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReportingConfig -->
+        <test-method status="PASS" signature="invokeTheTestSet(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testScripts.TestScripts@5f683daf]" name="invokeTheTestSet" is-config="true" duration-ms="92672" started-at="2021-06-17T21:13:49Z" finished-at="2021-06-17T21:15:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4724]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Xiaomi Redmi Note 9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeTheTestSet -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@5f683daf]" name="createTestDescription" is-config="true" duration-ms="1" started-at="2021-06-17T21:15:21Z" finished-at="2021-06-17T21:15:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_001(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_001(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@5f683daf]" name="TC_001" duration-ms="14747" started-at="2021-06-17T21:15:21Z" description="Verify Interstitial screens." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Second Title Screen=Swipe to see more, First Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. See compact view all the invoices, Third Screen Title=More details for invoices, Second Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. Swipe feature., Run Mode=Yes, Third Screen Description=This is a description for myFinance App for onboarding, a simple and short sentence. More details for the invoices., Description=Verify Interstitial screens., First Title Screen=MyFinance PreProd}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@5f683daf]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:36Z" finished-at="2021-06-17T21:15:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@5f683daf]" name="createTestDescription" is-config="true" duration-ms="1" started-at="2021-06-17T21:15:36Z" finished-at="2021-06-17T21:15:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_002(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_002(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@5f683daf]" name="TC_002" duration-ms="15135" started-at="2021-06-17T21:15:36Z" description="Verify landing screens." data-provider="regressionDataSet" finished-at="2021-06-17T21:15:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Description=Verify landing screen functionality, Nav 3 Text=, Top Nav 4=OFFICE, Landing Screen Title=Welcome, Top Nav 3=PORT, Top Nav 2=VESSEL, Top Nav 1=SHIPMENT, Landing Screen Sub Header=Start managing your shipments and logistics, Nav 4 Text=, Nav 1 Text=, Run Mode=Yes, Nav 2 Text=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@5f683daf]" name="updateTestExecutionStatus" is-config="true" duration-ms="1" started-at="2021-06-17T21:15:51Z" finished-at="2021-06-17T21:15:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="SKIP" signature="TC_003(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@5f683daf]" name="TC_003" duration-ms="1" started-at="2021-06-17T21:15:51Z" description="Verify login feature with invalid password" data-provider="regressionDataSet" finished-at="2021-06-17T21:15:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=mob_user_2, Login Screen Sub Title=Login to your account, Login Screen Title=Welcome back!, Password=Maersk#, Run Mode=No, Description=Verify login feature with invalid password for maerskline., Error Message=Invalid password}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the Test Case.... Run Mode set to 'No']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the Test Case.... Run Mode set to 'No'
+at testScripts.TestScripts.TC_003(TestScripts.java:203)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003 -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@5f683daf]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:51Z" finished-at="2021-06-17T21:15:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_003(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@5f683daf]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:51Z" finished-at="2021-06-17T21:15:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="TC_004(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@5f683daf]" name="TC_004" duration-ms="19109" started-at="2021-06-17T21:15:51Z" description="Verify login feature with invalid username." data-provider="regressionDataSet" finished-at="2021-06-17T21:16:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=blahblahblah, Password=Maersk@1, Run Mode=Yes, Description=Verify login feature with invalid username for maerskline., Error Message=Invalid username}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@5f683daf]" name="createTestDescription" is-config="true" duration-ms="0" started-at="2021-06-17T21:15:51Z" finished-at="2021-06-17T21:15:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_004(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@5f683daf]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:16:10Z" finished-at="2021-06-17T21:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="createTestDescription(java.lang.reflect.Method)[pri:0, instance:testScripts.TestScripts@5f683daf]" name="createTestDescription" is-config="true" duration-ms="1" started-at="2021-06-17T21:16:10Z" finished-at="2021-06-17T21:16:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testScripts.TestScripts.TC_005(java.util.Hashtable)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestDescription -->
+        <test-method status="PASS" signature="TC_005(java.util.Hashtable)[pri:0, instance:testScripts.TestScripts@5f683daf]" name="TC_005" duration-ms="18062" started-at="2021-06-17T21:16:10Z" description="Verify login feature with locked account." data-provider="regressionDataSet" finished-at="2021-06-17T21:16:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=locked_account, Password=Maersk#1, Run Mode=Yes, Description=Verify login feature with invalid locked account for maerskline., Error Message=Your account is locked. Please reset your password}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testScripts.TestScripts@5f683daf]" name="afterClass" is-config="true" duration-ms="1445" started-at="2021-06-17T21:16:28Z" finished-at="2021-06-17T21:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="updateTestExecutionStatus()[pri:0, instance:testScripts.TestScripts@5f683daf]" name="updateTestExecutionStatus" is-config="true" duration-ms="0" started-at="2021-06-17T21:16:28Z" finished-at="2021-06-17T21:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTestExecutionStatus -->
+        <test-method status="PASS" signature="afterAllTest()[pri:0, instance:testScripts.TestScripts@5f683daf]" name="afterAllTest" is-config="true" duration-ms="0" started-at="2021-06-17T21:16:30Z" finished-at="2021-06-17T21:16:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTest -->
+      </class> <!-- testScripts.TestScripts -->
+    </test> <!-- Android-EXECUTION-Device8 -->
+  </suite> <!-- ShipmentRewriteAndroidTestSuite -->
+</testng-results>

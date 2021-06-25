@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" guice-stage="DEVELOPMENT" name="Failed suite [MyFinanceTestSuite]" parallel="tests">
+  <test thread-count="6" name="Android-EXECUTION-Device3(failed)" parallel="tests">
+    <parameter name="platFormName" value="Android"/>
+    <parameter name="DeviceVersion" value="10.0"/>
+    <parameter name="portNumber" value="4724"/>
+    <parameter name="DeviceName" value="OnePlus 8"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- Android-EXECUTION-Device3(failed) -->
+  <test thread-count="6" name="iOS-EXECUTION-Device2(failed)" parallel="tests">
+    <parameter name="platFormName" value="iOS"/>
+    <parameter name="DeviceVersion" value="14"/>
+    <parameter name="portNumber" value="4723"/>
+    <parameter name="DeviceName" value="iPhone 12 Mini"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- iOS-EXECUTION-Device2(failed) -->
+  <test thread-count="6" name="Android-EXECUTION-Device2(failed)" parallel="tests">
+    <parameter name="platFormName" value="Android"/>
+    <parameter name="DeviceVersion" value="11.0"/>
+    <parameter name="portNumber" value="4724"/>
+    <parameter name="DeviceName" value="Samsung Galaxy S21"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- Android-EXECUTION-Device2(failed) -->
+  <test thread-count="6" name="iOS-EXECUTION-Device1(failed)" parallel="tests">
+    <parameter name="platFormName" value="iOS"/>
+    <parameter name="DeviceVersion" value="14"/>
+    <parameter name="portNumber" value="4723"/>
+    <parameter name="DeviceName" value="iPhone XS"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- iOS-EXECUTION-Device1(failed) -->
+  <test thread-count="6" name="Android-EXECUTION-Device1(failed)" parallel="tests">
+    <parameter name="platFormName" value="Android"/>
+    <parameter name="DeviceVersion" value="9.0"/>
+    <parameter name="portNumber" value="4724"/>
+    <parameter name="DeviceName" value="Google Pixel 3"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- Android-EXECUTION-Device1(failed) -->
+  <test thread-count="6" name="iOS-EXECUTION-Device3(failed)" parallel="tests">
+    <parameter name="platFormName" value="iOS"/>
+    <parameter name="DeviceVersion" value="13"/>
+    <parameter name="portNumber" value="4723"/>
+    <parameter name="DeviceName" value="iPhone SE 2020"/>
+    <classes>
+      <class name="testScripts.TestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="TC_003" invocation-numbers="0"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.TestScripts -->
+    </classes>
+  </test> <!-- iOS-EXECUTION-Device3(failed) -->
+</suite> <!-- Failed suite [MyFinanceTestSuite] -->

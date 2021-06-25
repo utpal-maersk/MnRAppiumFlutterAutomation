@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [FlutterTest]" parallel="tests">
+  <test thread-count="2" name="Android-EXECUTION(failed)" parallel="tests">
+    <parameter name="platFormName" value="Android"/>
+    <parameter name="portNumber" value="4723"/>
+    <classes>
+      <class name="testScripts.RegressionTestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="Budget_PerformReservation"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.RegressionTestScripts -->
+    </classes>
+  </test> <!-- Android-EXECUTION(failed) -->
+  <test thread-count="2" name="iOS-EXECUTION(failed)" parallel="tests">
+    <parameter name="platFormName" value="iOS"/>
+    <parameter name="portNumber" value="4725"/>
+    <classes>
+      <class name="testScripts.RegressionTestScripts">
+        <methods>
+          <include name="afterTestSuite"/>
+          <include name="createTestRun"/>
+          <include name="setReportingConfig"/>
+          <include name="afterAllTest"/>
+          <include name="updateTestExecutionStatus"/>
+          <include name="Budget_PerformReservation"/>
+          <include name="createTestDescription"/>
+          <include name="invokeTheTestSet"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testScripts.RegressionTestScripts -->
+    </classes>
+  </test> <!-- iOS-EXECUTION(failed) -->
+</suite> <!-- Failed suite [FlutterTest] -->

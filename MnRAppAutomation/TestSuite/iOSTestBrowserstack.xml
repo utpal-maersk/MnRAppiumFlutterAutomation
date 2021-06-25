@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ShipmentRewriteiOSTestSuite" parallel="tests" thread-count="10" >
+	
+	<test name="iOS-EXECUTION-Device1">
+		
+	    
+		<parameter name="platFormName" value="iOS"></parameter>
+		<parameter name="portNumber" value="4723" />
+		<parameter name="DeviceName" value="iPhone XS" />
+		<parameter name="DeviceVersion" value="14" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+ 					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+ 					<include name="TC_007"></include> 
+					<include name="TC_008"></include>
+					<include name="TC_009"></include> 
+					<include name="TC_010"></include> 
+					<include name="TC_011"></include> 
+ 					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+				</methods>
+
+			</class>
+			
+		</classes>
+
+	</test> <!-- Test -->
+	
+	<test name="iOS-EXECUTION-Device2">
+		
+	    
+		<parameter name="platFormName" value="iOS"></parameter>
+		<parameter name="portNumber" value="4723" />
+		<parameter name="DeviceName" value="iPhone 12 Mini" />
+		<parameter name="DeviceVersion" value="14" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+ 					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+ 					<include name="TC_007"></include> 
+					<include name="TC_008"></include>
+					<include name="TC_009"></include> 
+					<include name="TC_010"></include> 
+					<include name="TC_011"></include> 
+ 					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+				</methods>
+
+			</class>
+			
+		</classes>
+
+	</test> <!-- Test -->
+	
+	<test name="iOS-EXECUTION-Device3">
+		
+	    
+		<parameter name="platFormName" value="iOS"></parameter>
+		<parameter name="portNumber" value="4723" />
+		<parameter name="DeviceName" value="iPhone SE 2020" />
+		<parameter name="DeviceVersion" value="13" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+ 					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+ 					<include name="TC_007"></include> 
+					<include name="TC_008"></include>
+					<include name="TC_009"></include> 
+					<include name="TC_010"></include> 
+					<include name="TC_011"></include> 
+ 					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+				</methods>
+
+			</class>
+			
+		</classes>
+
+	</test> <!-- Test -->
+	
+	<test name="iOS-EXECUTION-Device4">
+		
+	    
+		<parameter name="platFormName" value="iOS"></parameter>
+		<parameter name="portNumber" value="4723" />
+		<parameter name="DeviceName" value="iPhone 11" />
+		<parameter name="DeviceVersion" value="13" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+ 					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+ 					<include name="TC_007"></include> 
+					<include name="TC_008"></include>
+					<include name="TC_009"></include> 
+					<include name="TC_010"></include> 
+					<include name="TC_011"></include> 
+ 					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+				</methods>
+
+			</class>
+			
+		</classes>
+
+	</test> <!-- Test -->
+	
+	<test name="iOS-EXECUTION-Device5">
+		
+	    
+		<parameter name="platFormName" value="iOS"></parameter>
+		<parameter name="portNumber" value="4723" />
+		<parameter name="DeviceName" value="iPhone 11" />
+		<parameter name="DeviceVersion" value="14" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+ 					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+ 					<include name="TC_007"></include> 
+					<include name="TC_008"></include>
+					<include name="TC_009"></include> 
+					<include name="TC_010"></include> 
+					<include name="TC_011"></include> 
+ 					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+				</methods>
+
+			</class>
+			
+		</classes>
+
+	</test> <!-- Test -->
+	
+	<test name="iOS-EXECUTION-Device6">
+		
+	    
+		<parameter name="platFormName" value="iOS"></parameter>
+		<parameter name="portNumber" value="4723" />
+		<parameter name="DeviceName" value="iPhone 11 Pro" />
+		<parameter name="DeviceVersion" value="13" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+ 					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+ 					<include name="TC_007"></include> 
+					<include name="TC_008"></include>
+					<include name="TC_009"></include> 
+					<include name="TC_010"></include> 
+					<include name="TC_011"></include> 
+ 					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+				</methods>
+
+			</class>
+			
+		</classes>
+
+	</test> <!-- Test -->
+	
+	<test name="iOS-EXECUTION-Device7">
+		
+	    
+		<parameter name="platFormName" value="iOS"></parameter>
+		<parameter name="portNumber" value="4723" />
+		<parameter name="DeviceName" value="iPhone 11 Pro Max" />
+		<parameter name="DeviceVersion" value="13" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+ 					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+ 					<include name="TC_007"></include> 
+					<include name="TC_008"></include>
+					<include name="TC_009"></include> 
+					<include name="TC_010"></include> 
+					<include name="TC_011"></include> 
+ 					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+				</methods>
+
+			</class>
+			
+		</classes>
+
+	</test> <!-- Test -->
+	
+	<test name="iOS-EXECUTION-Device8">
+		
+	    
+		<parameter name="platFormName" value="iOS"></parameter>
+		<parameter name="portNumber" value="4723" />
+		<parameter name="DeviceName" value="iPhone 11 Pro Max" />
+		<parameter name="DeviceVersion" value="14" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+ 					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+ 					<include name="TC_007"></include> 
+					<include name="TC_008"></include>
+					<include name="TC_009"></include> 
+					<include name="TC_010"></include> 
+					<include name="TC_011"></include> 
+ 					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+				</methods>
+
+			</class>
+			
+		</classes>
+
+	</test> <!-- Test -->
+	
+	<test name="iOS-EXECUTION-Device9">
+		
+	    
+		<parameter name="platFormName" value="iOS"></parameter>
+		<parameter name="portNumber" value="4723" />
+		<parameter name="DeviceName" value="iPhone 12" />
+		<parameter name="DeviceVersion" value="14" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+ 					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+ 					<include name="TC_007"></include> 
+					<include name="TC_008"></include>
+					<include name="TC_009"></include> 
+					<include name="TC_010"></include> 
+					<include name="TC_011"></include> 
+ 					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+				</methods>
+
+			</class>
+			
+		</classes>
+
+	</test> <!-- Test -->
+	
+	<test name="iOS-EXECUTION-Device10">
+		
+	    
+		<parameter name="platFormName" value="iOS"></parameter>
+		<parameter name="portNumber" value="4723" />
+		<parameter name="DeviceName" value="iPhone 12 Pro" />
+		<parameter name="DeviceVersion" value="14" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+ 					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+ 					<include name="TC_007"></include> 
+					<include name="TC_008"></include>
+					<include name="TC_009"></include> 
+					<include name="TC_010"></include> 
+					<include name="TC_011"></include> 
+ 					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+				</methods>
+
+			</class>
+			
+		</classes>
+
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->

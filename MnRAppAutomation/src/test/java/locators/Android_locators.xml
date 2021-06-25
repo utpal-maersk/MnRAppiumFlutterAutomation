@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Locators>
+    
+    <!-- 
+    
+		    please use below keywords to determine locators for flutter view:
+		    byValueKey = 'keyvalue='
+		    byType	   = 'type='	
+		    byTooltip  = 'tooltip='
+		    bySemanticsLabel = 'semanticlabel='
+		    text           	 = 'text=' 
+		    
+		    please use below keywords to determine locators for native view:
+    		
+    		By.id = 'id='  (for android)
+    		By.xpath = '//'
+    		By.className = 'class='
+    		By.name = 'name='
+    -->
+	<OnBoardingScreen>
+	
+    	<BrandIcon><![CDATA[keyvalue=onboarding_logo_image]]></BrandIcon>
+	    <TitleText><![CDATA[keyvalue=title_text]]></TitleText>
+	    <Image><![CDATA[keyvalue=onboarding_image_1]]></Image>
+	    <DescriptionText><![CDATA[keyvalue=description_text]]></DescriptionText>
+	    <SkipButton><![CDATA[keyvalue=onboarding_skipe_label]]></SkipButton>
+	    <NextButton><![CDATA[keyvalue=onboarding_next_button]]></NextButton>
+	    <testLocator1><![CDATA[keyvalue=User ID]]></testLocator1>
+	    <testLocator2><![CDATA[keyvalue=Password]]></testLocator2>
+	    
+	    
+	     		
+   </OnBoardingScreen>
+   
+   <LandingScreen>
+    	
+	    <WelcomeText><![CDATA[keyvalue=non_login_welcome_home_header]]></WelcomeText>
+	    <WelcomeTextSub><![CDATA[keyvalue=non_login_sub_header_text]]></WelcomeTextSub>
+	    <ShipmentTopIcon><![CDATA[keyvalue=non_login_top_icon_0]]></ShipmentTopIcon>
+	    <VesselTopIcon><![CDATA[keyvalue=non_login_top_icon_1]]></VesselTopIcon>
+	    <PortTopIcon><![CDATA[keyvalue=non_login_top_icon_2]]></PortTopIcon>
+	    <OfficeTopIcon><![CDATA[keyvalue=non_login_top_icon_3]]></OfficeTopIcon>
+	    <UserNameField><![CDATA[keyvalue=external_login_username_textfield]]></UserNameField>
+	    <PasswordField><![CDATA[keyvalue=external_login_password_textfield]]></PasswordField>
+	    <LoginButton><![CDATA[keyvalue=user_login_button]]></LoginButton>
+	    <ErrorMessage><![CDATA[keyvalue=login_failure_snackbar_message]]></ErrorMessage>
+	     		
+   </LandingScreen>
+   
+    <HomeScreen>
+    	
+	    <WelcomeText><![CDATA[keyvalue=home_welcome_lable]]></WelcomeText>
+	    <WelcomeTextSub><![CDATA[keyvalue=home_header_lable]]></WelcomeTextSub>
+	    <ShipmentTopIcon><![CDATA[keyvalue=login_top_icon_0]]></ShipmentTopIcon>
+	    <VesselTopIcon><![CDATA[keyvalue=login_top_icon_1]]></VesselTopIcon>
+	    <PortTopIcon><![CDATA[keyvalue=login_top_icon_2]]></PortTopIcon>
+	    <OfficeTopIcon><![CDATA[keyvalue=login_top_icon_3]]></OfficeTopIcon>
+	    <ChangeCustomerArrow><![CDATA[keyvalue=down_arrow_customer]]></ChangeCustomerArrow>
+	    <SearchField><![CDATA[keyvalue=search_input_field]]></SearchField>
+	    <LoginButton><![CDATA[keyvalue=user_login_button]]></LoginButton>
+	    <ErrorMessage><![CDATA[keyvalue=login_failure_snackbar_message]]></ErrorMessage>
+	     		
+   </HomeScreen>
+   
+	<LoginScreen>
+    	
+	    <WelcomeText><![CDATA[keyvalue=login_welcome_label]]></WelcomeText>
+	    <WelcomeTextSub><![CDATA[keyvalue=login_here_label]]></WelcomeTextSub>
+	    <MaerskBrandIcon><![CDATA[keyvalue=maersk_brand_selection]]></MaerskBrandIcon>
+	    <SealandBrandIcon><![CDATA[keyvalue=sealand_brand_selection]]></SealandBrandIcon>
+	    <MaerskFieldLabel><![CDATA[text=Maersk Username]]></MaerskFieldLabel>
+	    <SealandFieldLabel><![CDATA[text=Sealand Username]]></SealandFieldLabel>
+	    <UserNameField><![CDATA[keyvalue=external_login_username_textfield]]></UserNameField>
+	    <PasswordField><![CDATA[keyvalue=external_login_password_textfield]]></PasswordField>
+	    <LoginButton><![CDATA[keyvalue=user_login_button]]></LoginButton>
+	    <LoginButtonText><![CDATA[keyvalue=user_login_button_text]]></LoginButtonText>
+	    <ErrorMessage><![CDATA[keyvalue=login_failure_snackbar_message]]></ErrorMessage>
+	     		
+   </LoginScreen>
+   
+   <SetCustomer>
+    	
+	    <SetCustomerTitle><![CDATA[keyvalue=customer_screen_title]]></SetCustomerTitle>
+	    <SubText><![CDATA[keyvalue=customer_screen_subtext]]></SubText>
+	    <TradingName><![CDATA[keyvalue=customer_screen_trading_]]></TradingName>
+	    <CustomerCode><![CDATA[keyvalue=customer_screen_code_]]></CustomerCode>
+	    <ScrollerContainer><![CDATA[type=ListView]]></ScrollerContainer>
+	    <cancelButton><![CDATA[text=Cancel]]></cancelButton>
+	     		
+   </SetCustomer>
+   
+   <DashboardScreen>
+    	
+	    <TitleText><![CDATA[keyvalue=dashboard_header_title]]></TitleText>
+	    
+	     		
+   </DashboardScreen>
+	
+	<LogOut>
+    	
+	    <alertTitleLogout><![CDATA[keyvalue=alert_logout_title]]></alertTitleLogout>
+	    <alertMessageLogout><![CDATA[keyvalue=alert_message_logout]]></alertMessageLogout>
+	    <alertLogoutButton><![CDATA[keyvalue=logout_button]]></alertLogoutButton>
+	    <alertStayButton><![CDATA[keyvalue=stay_button]]></alertStayButton>
+	    
+	     		
+   </LogOut>
+   
+   
+   <Loader>
+    	
+	    <SpinnerIcon><![CDATA[text=Please wait...]]></SpinnerIcon>
+	     		
+   </Loader>
+   
+   <BiometricAvailable>
+    	
+	    <BiometricEnableButton><![CDATA[keyvalue=biometric_enable]]></BiometricEnableButton>
+	    <BiometricCancelButton><![CDATA[keyvalue=biometric_cancel]]></BiometricCancelButton>
+	    <BiometricDescription><![CDATA[keyvalue=biometric_description]]></BiometricDescription>
+	     		
+   </BiometricAvailable>
+   
+   <BiometricNotAvailable>
+    	
+	    <BiometricAlertTitle><![CDATA[keyvalue=alert_title]]></BiometricAlertTitle>
+	    <BiometricDescription><![CDATA[keyvalue=alert_desc]]></BiometricDescription>
+	    <BiometricOkButton><![CDATA[keyvalue=alert_ok_button]]></BiometricOkButton>
+	     		
+   </BiometricNotAvailable>
+   
+   <AppBar>
+    	
+	    <PageBack><![CDATA[keyvalue=back_arrow]]></PageBack>
+	    <ScreenTitle><![CDATA[keyvalue=screen_title_text]]></ScreenTitle>
+	    <ProfileIconInactive><![CDATA[keyvalue=profile_icon_inactive]]></ProfileIconInactive>
+	    <ProfileIconActive><![CDATA[keyvalue=profile_icon_inactive]]></ProfileIconActive>
+	     		
+   </AppBar>
+   
+   <BottomNavigation>
+    	
+	    <BookActive><![CDATA[keyvalue=book_active_image]]></BookActive>
+	    <ShipmentActive><![CDATA[keyvalue=shipment_active_image]]></ShipmentActive>
+	    <HomeActive><![CDATA[keyvalue=home_active_image]]></HomeActive>
+	    <InvoicesActive><![CDATA[keyvalue=invoices_active_image]]></InvoicesActive>
+	    <SchedulesActive><![CDATA[keyvalue=schedules_active_image]]></SchedulesActive>
+	    <BookInActive><![CDATA[keyvalue=book_inactive_image]]></BookInActive>
+	    <ShipmentInActive><![CDATA[keyvalue=shipment_inactive_image]]></ShipmentInActive>
+	    <HomeInActive><![CDATA[keyvalue=home_inactive_image]]></HomeInActive>
+	    <InvoicesInActive><![CDATA[keyvalue=invoices_inactive_image]]></InvoicesInActive>
+	    <SchedulesInActive><![CDATA[keyvalue=schedules_inactive_image]]></SchedulesInActive>
+	     		
+   </BottomNavigation>
+   
+   <ProfileScreen>
+    	
+	    <ChangeCustomerButton><![CDATA[keyvalue=book_active_image]]></ChangeCustomerButton>
+	    <tradingName><![CDATA[keyvalue=trading_name]]></tradingName>
+	    <customerCode><![CDATA[keyvalue=customer_code]]></customerCode>
+	    <userRealName><![CDATA[keyvalue=user_real_name]]></userRealName>
+	    <userLoginName><![CDATA[keyvalue=user_login_name]]></userLoginName>
+	    <changeCustomerIconLeft><![CDATA[keyvalue=change_customer_left_icon]]></changeCustomerIconLeft>
+	    <termsConditionIconLeft><![CDATA[keyvalue=terms_condition_left_icon]]></termsConditionIconLeft>
+	    <contactDetailsIconLeft><![CDATA[keyvalue=contact_detail_left_icon]]></contactDetailsIconLeft>
+	    <supportFAQIconLeft><![CDATA[keyvalue=support_faq_left_icon]]></supportFAQIconLeft>
+	    <sendFeedbackIconLeft><![CDATA[keyvalue=send_feedback_left_icon]]></sendFeedbackIconLeft>
+	    <logoutIconLeft><![CDATA[keyvalue=log_out_left_icon]]></logoutIconLeft>
+	    <biometricLeftIcon><![CDATA[keyvalue=biometric_left_icon]]></biometricLeftIcon>
+	    <appVersionLabel><![CDATA[keyvalue=app_version_label]]></appVersionLabel>
+	    <appVersion><![CDATA[keyvalue=app_version]]></appVersion>
+	    <parentScroll><![CDATA[keyvalue=parent_scroll]]></parentScroll>
+	     		
+   </ProfileScreen>
+	
+    
+ 
+</Locators>

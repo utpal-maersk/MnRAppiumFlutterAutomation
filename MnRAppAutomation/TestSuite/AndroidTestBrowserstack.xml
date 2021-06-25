@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ShipmentRewriteAndroidTestSuite" parallel="tests" thread-count="10" >
+	<test name="Android-EXECUTION-Device1" >
+
+	    
+		<parameter name="platFormName" value="Android"></parameter>
+		<parameter name="portNumber" value="4724" />
+		<parameter name="DeviceName" value="Google Pixel 3" />
+		<parameter name="DeviceVersion" value="9.0" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+					<include name="TC_007"></include>
+					<include name="TC_008"></include> 
+ 					<include name="TC_009"></include> 
+ 					<include name="TC_010"></include> 
+ 					<include name="TC_011"></include> 
+					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+					
+				</methods>
+
+			</class>
+		</classes>
+
+	</test>
+	
+	<test name="Android-EXECUTION-Device2" >
+
+	    
+		<parameter name="platFormName" value="Android"></parameter>
+		<parameter name="portNumber" value="4724" />
+		<parameter name="DeviceName" value="Samsung Galaxy S21" />
+		<parameter name="DeviceVersion" value="11.0" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+					<include name="TC_007"></include>
+					<include name="TC_008"></include> 
+ 					<include name="TC_009"></include> 
+ 					<include name="TC_010"></include> 
+ 					<include name="TC_011"></include> 
+					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+					
+				</methods>
+
+			</class>
+		</classes>
+
+	</test>
+	
+	<test name="Android-EXECUTION-Device3" >
+
+	    
+		<parameter name="platFormName" value="Android"></parameter>
+		<parameter name="portNumber" value="4724" />
+		<parameter name="DeviceName" value="OnePlus 8" />
+		<parameter name="DeviceVersion" value="10.0" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+					<include name="TC_007"></include>
+					<include name="TC_008"></include> 
+ 					<include name="TC_009"></include> 
+ 					<include name="TC_010"></include> 
+ 					<include name="TC_011"></include> 
+					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+					
+				</methods>
+
+			</class>
+		</classes>
+
+	</test>
+	
+	<test name="Android-EXECUTION-Device4" >
+
+	    
+		<parameter name="platFormName" value="Android"></parameter>
+		<parameter name="portNumber" value="4724" />
+		<parameter name="DeviceName" value="Samsung Galaxy S8" />
+		<parameter name="DeviceVersion" value="7.0" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+					<include name="TC_007"></include>
+					<include name="TC_008"></include> 
+ 					<include name="TC_009"></include> 
+ 					<include name="TC_010"></include> 
+ 					<include name="TC_011"></include> 
+					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+					
+				</methods>
+
+			</class>
+		</classes>
+
+	</test>
+	
+	<test name="Android-EXECUTION-Device5" >
+
+	    
+		<parameter name="platFormName" value="Android"></parameter>
+		<parameter name="portNumber" value="4724" />
+		<parameter name="DeviceName" value="Samsung Galaxy S8 Plus" />
+		<parameter name="DeviceVersion" value="9.0" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+					<include name="TC_007"></include>
+					<include name="TC_008"></include> 
+ 					<include name="TC_009"></include> 
+ 					<include name="TC_010"></include> 
+ 					<include name="TC_011"></include> 
+					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+					
+				</methods>
+
+			</class>
+		</classes>
+
+	</test>
+	
+	<test name="Android-EXECUTION-Device6" >
+
+	    
+		<parameter name="platFormName" value="Android"></parameter>
+		<parameter name="portNumber" value="4724" />
+		<parameter name="DeviceName" value="Samsung Galaxy S9 Plus" />
+		<parameter name="DeviceVersion" value="8.0" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+					<include name="TC_007"></include>
+					<include name="TC_008"></include> 
+ 					<include name="TC_009"></include> 
+ 					<include name="TC_010"></include> 
+ 					<include name="TC_011"></include> 
+					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+					
+				</methods>
+
+			</class>
+		</classes>
+
+	</test>
+	
+	<test name="Android-EXECUTION-Device7" >
+
+	    
+		<parameter name="platFormName" value="Android"></parameter>
+		<parameter name="portNumber" value="4724" />
+		<parameter name="DeviceName" value="Huawei P30" />
+		<parameter name="DeviceVersion" value="9.0" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+					<include name="TC_007"></include>
+					<include name="TC_008"></include> 
+ 					<include name="TC_009"></include> 
+ 					<include name="TC_010"></include> 
+ 					<include name="TC_011"></include> 
+					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+					
+				</methods>
+
+			</class>
+		</classes>
+
+	</test>
+	
+	<test name="Android-EXECUTION-Device8" >
+
+	    
+		<parameter name="platFormName" value="Android"></parameter>
+		<parameter name="portNumber" value="4724" />
+		<parameter name="DeviceName" value="Xiaomi Redmi Note 9" />
+		<parameter name="DeviceVersion" value="10.0" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+					<include name="TC_007"></include>
+					<include name="TC_008"></include> 
+ 					<include name="TC_009"></include> 
+ 					<include name="TC_010"></include> 
+ 					<include name="TC_011"></include> 
+					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+					
+				</methods>
+
+			</class>
+		</classes>
+
+	</test>
+	
+	<test name="Android-EXECUTION-Device9" >
+
+	    
+		<parameter name="platFormName" value="Android"></parameter>
+		<parameter name="portNumber" value="4724" />
+		<parameter name="DeviceName" value="Google Pixel 3 XL" />
+		<parameter name="DeviceVersion" value="9.0" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+					<include name="TC_007"></include>
+					<include name="TC_008"></include> 
+ 					<include name="TC_009"></include> 
+ 					<include name="TC_010"></include> 
+ 					<include name="TC_011"></include> 
+					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+					
+				</methods>
+
+			</class>
+		</classes>
+
+	</test>
+	
+	<test name="Android-EXECUTION-Device10" >
+
+	    
+		<parameter name="platFormName" value="Android"></parameter>
+		<parameter name="portNumber" value="4724" />
+		<parameter name="DeviceName" value="Samsung Galaxy S20" />
+		<parameter name="DeviceVersion" value="10.0" />
+		<classes>
+
+			<class name="utils.DriverTestCase" />
+			<class name="testScripts.TestScripts">
+				<methods>
+					<include name="TC_001"></include>
+					<include name="TC_002"></include>
+					<include name="TC_003"></include>
+					<include name="TC_004"></include>
+					<include name="TC_005"></include>
+				<!--	<include name="TC_006"></include>
+					<include name="TC_007"></include>
+					<include name="TC_008"></include> 
+ 					<include name="TC_009"></include> 
+ 					<include name="TC_010"></include> 
+ 					<include name="TC_011"></include> 
+					<include name="TC_012"></include> 
+					<include name="TC_013"></include> -->
+					
+				</methods>
+
+			</class>
+		</classes>
+
+	</test>
+</suite> <!-- Suite -->
